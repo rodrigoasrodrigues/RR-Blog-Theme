@@ -1,0 +1,106 @@
+/*
+Theme Name: RR Info Blog
+Author: Rodrigo Rodrigues
+Author URI: https://rodrigorodrigues.info
+Description: A simple, lightweight theme for my blog
+Version: 1.0
+Text Domain: rrinfo
+Tags: responsive, lightweight
+*/
+header,
+footer {
+  font-size: 1.5em;
+  color: white;
+}
+header a,
+footer a {
+  color: white;
+  text-decoration: none;
+}
+header a:hover,
+footer a:hover {
+  color: #bebdbd;
+}
+.bg-dark {
+  background-color: #1b1b1b;
+}
+.navbar {
+  min-height: 100px;
+}
+.navbar.bg-dark {
+  color: white;
+}
+.no-decoration {
+  text-decoration: none;
+}
+.carousel-contain .carousel {
+  position: relative;
+  min-height: 350px;
+  width: 100%;
+}
+.carousel-contain .carousel .slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-color: #1b1b1b;
+  background-position: center center;
+  color: white;
+}
+.carousel-contain .carousel .container {
+  height: 100%;
+}
+.carousel-contain .carousel .container .row {
+  height: 100%;
+}
+.carousel-contain .carousel .container .row .slide-content {
+  height: 100%;
+  display: table;
+}
+.carousel-contain .carousel .container .row .slide-content .content-block {
+  display: table-cell;
+  vertical-align: middle;
+}
+.carousel-contain .carousel .bg-fade {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.card {
+  transition: all 0.6s;
+  background: #FFF;
+}
+.card .card-img-top {
+  overflow: hidden;
+  height: 180px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.176);
+}
+.card .card-img-top .div-img {
+  background-color: #1b1b1b;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  scale: 1;
+  transition: all 0.3s;
+  filter: none;
+}
+.card p,
+.card small,
+.card h5 {
+  color: #1b1b1b;
+}
+a:hover .card {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.176);
+  background: #FFF !important;
+}
+a:hover .card .card-img-top .div-img {
+  scale: 1.2;
+  filter: brightness(1.25);
+}
+a:visited .card {
+  background: #fff0e1;
+}
+#go-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
